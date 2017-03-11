@@ -8,9 +8,9 @@ class Engine {
         if (funcName.equalsIgnoreCase("square")) {
             return "" + (inputValue * inputValue);
 
-        } /*if (funcName.equalsIgnoreCase("cube")) {
+        } if (funcName.equalsIgnoreCase("cube")) {
             return "" + (inputValue * inputValue * inputValue);
-        } */
+        }
 
         if (funcName.equalsIgnoreCase("square_root")) {
             return "" + (Math.sqrt(inputValue));
