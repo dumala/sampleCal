@@ -5,10 +5,10 @@ class Engine {
     String computeSciFun(String funcName, String input) {
         double inputValue = Double.parseDouble(input);
 
-        /*if (funcName.equalsIgnoreCase("square")) {
+        if (funcName.equalsIgnoreCase("square")) {
             return "" + (inputValue * inputValue);
 
-        } if (funcName.equalsIgnoreCase("cube")) {
+        } /*if (funcName.equalsIgnoreCase("cube")) {
             return "" + (inputValue * inputValue * inputValue);
         } */
 
